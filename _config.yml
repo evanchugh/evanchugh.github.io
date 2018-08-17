@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Evan Chugh"
+title                    : "Evan Chugh - Data Science Portfolio"
 title_separator          : "-"
 name                     : "Evan Chugh"
-description              : "Machine Learning Portfolio"
+description              : "Computer Science/Statistics Undergraduate at Canisius College"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Evan Chugh"
   avatar           : "/images/bio-image-placeholder.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Machine Learning Portfolio"
+  bio              : "Data Science Portfolio"
   location         : "Buffalo, NY"
   email            :
   uri              :
