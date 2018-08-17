@@ -1,10 +1,10 @@
 ---
 layout: archive
 permalink: /old-posts/
-title: "Machine Learning Posts by Tags"
+title: "Machine Learning Posts by Tag"
 author_profile: true
 header:
-  image: "/images/buffalo-skyway.jpg"
+  image: "/images/aerial-buffalo-alt.jpg"
 ---
 
 {% include base_path %}
