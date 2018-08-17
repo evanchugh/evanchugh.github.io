@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Evan Chugh - Data Science Portfolio"
 title_separator          : "-"
 name                     : "Evan Chugh"
-description              : "Computer Science/Statistics Undergraduate at Canisius College"
+description              : "Data Science, Machine Learning & Deep Learning projects and tutorials"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Evan Chugh"
   avatar           : "/images/bio-image-placeholder.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "Computer Science/Statistics Undergraduate at Canisius College in Buffalo, NY"
   location         : "Buffalo, NY"
   email            :
   uri              :
