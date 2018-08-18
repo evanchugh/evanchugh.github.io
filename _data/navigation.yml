@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "CV"
+    url: /assets/CV.pdf
   - title: "About"
     url: /about/
   - title: "Previous Posts"
