@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Evan Chugh | Machine Learning Projects & Tutorials"
+title                    : "Evan Chugh | Machine Learning Portfolio"
 title_separator          : "-"
 name                     : "Evan Chugh"
 description              : "Evan Chugh - Data Science, Machine Learning & Deep Learning projects and tutorials"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Evan Chugh"
   avatar           : "/images/bio-image-placeholder.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Student and ML Researcher at Canisius College"
+  bio              : "CS undergrad & ML researcher at Canisius College"
   location         : "Buffalo, NY"
   email            : "evanchugh@gmail.com"
   uri              :
