@@ -1,82 +1,67 @@
-<html>
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>Evan Chugh</title>
-      <link href="./assets/bootstrap.min.css" rel="stylesheet">
-      <link href="./assets/homepage.css" rel="stylesheet">
-      <link href="./assets/css" rel="stylesheet" type="text/css">
-   </head>
-   <body>
-      <div id="header" class="bg">
-         <div id="header-inner">
-            <img src="./assets/photo_placeholder.png" class="img-me">
-            <div class="header-text">
-               <div class="header-text-name">
-                  Evan Chugh
-               </div>
-               <div class="header-text-email">
-                  evanchugh (at) gmail.com
-               </div>
-            </div>
-         </div>
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Evan Chugh Personal Website">
+  <meta name="author" content="Evan Chugh">
+
+  <title>Evan Chugh | Personal Website</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="pb-0 jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <img src="./assets/portrait_square.png" alt="Photo of Evan" class="img-thumbnail">
+        </div>
+        <div class="col-9">
+          <div class="container">
+            <h1 class="display-4">Evan Chugh</h1>
+            <p class="lead">
+              I am a Computer Science major and Student Researcher at Canisius College in Buffalo, New York. I have a strong interest in reinforcement learning, and plan to pursue a PhD on this topic in the next several years. My research history has included gait analysis and classification of patients with Parkinson's Disease. I am currently researching methods of segmentation for cardiovascular anatomy through the use of convolutional neural networks.
+            </p>
+            <p class="lead">
+              My CV can be found <a href="./assets/CV.pdf">here</a>.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="container">
-      <div class="col-xs-12">
-         <div class="row">
-            <p>
-               I am a Computer Science major and Student Researcher at Canisius College in Buffalo, New York. I have a strong interest in reinforcement learning, and plan to pursue a PhD on this topic in the next several years.
-               My research history has included gait analysis and classification of patients with Parkinson's Disease. I am currently researching methods of segmentation for cardiovascular anatomy through the use of convolutional neural networks.
-            </p>
+    </div>
+  </div>
 
-            <p>
-               Throughout my education, I have consistently and independently worked to further my knowledge outside of required course content. This has not only occurred through collaborative projects and mentorship from Canisius Computer Science faculty member Dr. Debra Burhans, but also through summer research opportunities.
-               If you would like to collaborate on any research, projects, or competitions, do not hesitate to send me an email.
-            </p>
+  <div class="mb-4 container">
+    <h1>Selected Research Contributions</h1>
 
-            <p>
-               My CV can be found <a href="./assets/CV.pdf">here</a>.
-            </p>
-         </div>
+    <br/>
 
-         <div class="row">
-            <hr/>
-         </div>
+    <p class="mb-2 font-weight-bold">Applications of Convolutional Neural Networks in Echocardiogram Analysis</p>
+    <p class="mb-2 font-italic">Evan Chugh, Debra Burhans</p>
+    <p class="font-weight-light">
+      Independently established a relationship between Canisius College and a local medical practice.
+      Gained experience with IRB and HIPAA guidelines. Created a utility to automate removal of PHI.
+      Worked with healthcare providers to label key dimensions frequently referenced during
+      diagnosis. Constructed a convolutional neural network for heart chamber segmentation,
+      achieving 98% pixel-wise accuracy over a validation set by leveraging data augmentation with a
+      training set of approximately 180 images. Publication in progress.
+    </p>
 
-         <div class="row">
-            <h1>Selected Research Contributions</h1>
-         </div>
-         <div class="row vspace-top-small">
-            <div class="paper-title">
-               Applications of Convolutional Neural Networks in Echocardiogram Analysis
-            </div>
-            <div class="paper-authors">
-               Evan Chugh, Debra Burhans
-            </div>
-            <div class="paper-venue">
-              Independently established a relationship between Canisius College and a local
-              medical practice. Gained experience with IRB and HIPAA guidelines. Created a
-              utility to automate removal of PHI. Worked with healthcare providers to label
-              key dimensions frequently referenced during diagnosis. Constructed a
-              convolutional neural network for heart chamber segmentation, achieving 98%
-              pixel-wise accuracy over a validation set by leveraging data augmentation with a
-              training set of approximately 180 images.
-            </div>
-         </div>
-         <div class="row vspace-top-small">
-            <div class="paper-title">
-               Electroskip: Using Machine Learning to Improve Patient Response in Physical Therapy
-            </div>
-            <div class="paper-authors">
-               Evan Chugh, Debra Burhans, Jon Mrowczynski
-            </div>
-            <div class="paper-venue">
-              Investigated the use of recurrent neural networks in creating real-time
-              responses to human motion. Used gait and pressure data for detection of
-              patients with early onset Parkinson’s Disease. Implemented a data collection
-              system into the existing application pipeline. A study based on this work has
-              shown moderate success in correcting the gait of patients with Parkinson’s Disease.
-            </div>
-         </div>
-      </div>
-   </body>
+    <br/>
+
+    <p class="mb-2 font-weight-bold">Electroskip: Using Machine Learning to Improve Patient Response in Physical Therapy</p>
+    <p class="mb-2 font-italic">Evan Chugh, Debra Burhans, Jon Mrowczynski</p>
+    <p class="font-weight-light">
+      Investigated the use of recurrent neural networks in creating real-time responses to human
+      motion. Used gait and pressure data for classification of patients with Parkinson’s Disease.
+      Implemented a data collection system into the existing application pipeline. A study based on
+      this work has shown moderate success in correcting the gait of patients with Parkinson’s Disease.
+    </p>
+  </div>
+
+</body>
 </html>
